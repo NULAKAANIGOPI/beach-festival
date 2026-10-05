@@ -1,0 +1,271 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#one{
+    background: linear-gradient(to right,red,orange,yellow,greenyellow,skyblue,greenyellow,yellow,orange,red);
+    text-align: center;
+    font-weight:bold;
+    height:30px;
+    padding:8px;
+}
+#two{
+    background: url("https://cdn.create.vista.com/api/media/small/9596668/stock-photo-palms-on-empty-idyllic-tropical-beach");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+    background-attachment: scroll;
+    text-align: center;
+    position: relative;
+}
+#twoA{
+    background:red;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px;
+    position:absolute;
+    left:80vw;
+    top:50px;
+}
+#two > h1{
+    position: absolute;
+    top:100px;
+    left:15vw;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#two > p{
+    position: absolute;
+    top:240px;
+    left:70vw;
+    font-style: oblique;
+    font-weight: bold;
+}
+#two > button{
+    border-radius: 25px;
+    font-size: 40px;
+    background-color:rgba(255, 165, 0,0.3) ;
+    position: absolute;
+    top:450px;
+    left:40%;
+}
+#two > button:hover{
+    border-radius: 25px;
+    font-size: 40px;
+    font-style: italic;
+    height:50px;
+    width:350px;
+    background-color:antiquewhite;
+    position: absolute;
+    top:450px;
+    left:38%;
+}
+#twoB{
+    background-color: aquamarine;
+    height:50px;
+    width:100vw;
+    position: absolute;
+    top:515px;
+}
+#twoC{
+    height:30px;
+    width:100vw;
+    background-color: aqua;
+    position: absolute;
+    top:565px;
+}
+#twoD{
+    height:150px;
+    width:20px;
+    background-color: brown;
+    position:absolute;
+    left:40px;
+    top:400px;
+}
+#twoE{
+    height:150px;
+    width:20px;
+    background-color: brown;
+    position:absolute;
+    right:40px;
+    top:400px;
+}
+.container{
+    background:bisque;
+    height:600px;
+    position: relative;
+}
+.container > h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:10px;
+}  
+#crystal{
+    border:5px solid grey;
+    height:300px;  
+    background-color: white;
+    width:200px;
+    text-align: center;
+    position: absolute;
+    left:300px;
+    top:100px;
+}
+#crystal:hover{
+    border:5px solid red;
+    height:320px;  
+    background-color: aquamarine;
+    width:220px;
+    text-align: center;
+    font-family: cursive;
+    position: absolute;
+    left:300px;
+    top:100px;
+    box-shadow: 10px 10px 15px 0px yellow,-10px -10px 15px 0px yellow;
+}
+#crystal > img {
+    height:200px;
+    width:100%;
+}
+#sunset{
+    background-color: white;
+    border:5px solid grey;
+    height:300px;
+    width:200px;
+    text-align: center;
+    position: absolute;
+    left:600px;
+    top:150px;
+    
+}
+#sunset:hover{
+    background-color: aquamarine;
+    border:5px solid red;
+    height:320px;
+    width:220px;
+    text-align: center;
+    position: absolute;
+    left:600px;
+    top:150px;
+    font-family: cursive;
+    box-shadow: 10px 10px 15px 0px yellow,-10px -10px 15px 0px yellow;
+    
+}
+#sunset > img {
+    height:200px;
+    width:100%;
+}
+#sports{
+    background-color: white;
+    border:5px solid grey;
+    height:400px;
+    width:200px;
+    text-align: center;
+    position: absolute;
+    left:900px;
+    top:100px;
+}
+#sports:hover{
+    background-color:aquamarine;
+    border:5px solid red;
+    height:420px;
+    width:220px;
+    text-align: center;
+    position: absolute;
+    left:900px;
+    top:100px;
+    font-family: cursive;
+    box-shadow: 10px 10px 15px 0px yellow,-10px -10px 15px 0px yellow ;
+}
+#sports > img {
+    height:300px;
+    width:100%;
+}
+.memories > img:hover{
+    height:180px;
+    width:180px;
+    border:3px solid blue;
+    border-radius: 20px;
+    padding:2px;
+    position: relative;
+    box-shadow:5px 5px 15px 5px goldenrod,
+                -5px -5px 15px 5px goldenrod;
+}
+.memories > img{
+    height:150px;
+    width:150px;
+    border:3px solid #B4E1EB;
+    padding:2px;
+    position: relative;
+}
+#oneA{
+    position: absolute;
+    left:300px;
+    top:100px;
+}
+#oneB{
+    position: absolute;
+    left:500px;
+    top:150px;
+}
+#oneC{
+    position: absolute;
+    left:700px;
+    top:100px;
+}
+#oneD{
+    position: absolute;
+    left:900px;
+    top:150px;
+}
+#oneE{
+    position: absolute;
+    left:500px;
+    top:400px;
+}
+#oneF{
+    position: absolute;
+    left:700px;
+    top:400px;
+}
+.containerb{
+    background: linear-gradient(skyblue,beige,skyblue);
+    height:230px;
+    text-align: center;
+    position: relative;
+}
+.containerb > h1{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding:10px;
+}
+#time > div {
+    background: linear-gradient(skyblue,beige,skyblue);
+    border:3px solid blue;
+    height:50px;
+    width:200px;
+    padding:30px;
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    box-shadow: 0 0 5px 0px ;
+}
+#time > div:hover {
+    background: linear-gradient(skyblue,beige,skyblue);
+    border:3px solid red;
+    height:70px;
+    width:250px;
+    padding:40px;
+    display: inline-block;
+    margin: 30px 20px 30px 20px;
+    box-shadow: 0 0 10px 0px red ;
+}
+.end{
+    background: linear-gradient(to right,blue,aqua,blue);
+    height:30px;
+    font-family:cursive;
+    text-align: center;
+
+}
